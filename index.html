@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeST Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .img-fluid{
+      float: right;
+      }
+      .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-title{
+  color: #f70000;
+}
+
+.card-body{
+  background-color: #1e1e1e;
+}
+
+.card {
+    background: #669bbc;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 5px;
+    padding: 0 0;
+    display: flex;
+    justify-content: space-between 0;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card-container:hover > :not(:hover){
+    opacity: 1;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background: #111111;">
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <img src="./images/DIgital.png" width="35%" style="padding-left: 40px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="padding-left: 200px;  padding-top: 30px; color: lightgray;" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="padding-left: 40px; padding-top: 30px; color: lightgray;" href="department.html">Department</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="padding-left: 40px; padding-top: 30px; color: lightgray;" href="options.html">Services</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" style="padding-right: 100px;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #555555;">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+    </div>
+  </nav>
+      <img src="./images/home.png" class="img-fluid" alt="...">
+      <p class="start">We combine our deep domain expertise, reusable digital platforms, & complimentary services to deliver world class solutions that brings outstanding success for our customers</p>
+      <p style="padding-top: 100px; text-align: center; color: #989898;"><b>INDUSTRIES</b></p>
+      <table class="table table-borderless" style="padding-top: 25px; padding-bottom: 50px; text-align: center;">
+        <tbody>
+          <tr>
+            <th  style="color: #787878; width: 10%; background-color: #111111;">INSURANCE</th>
+            <th  style="color: #777777; width: 10%; background-color: #111111;">MOBILITY</th>
+            <th style="color: #787878; width: 10%; background-color: #111111;">LOCOMOTIVE</th>
+            <th style="color: #797979; width: 10%; background-color: #111111;">INDUSTRIAL</th>
+            <th style="color: #797979; width: 10%; background-color: #111111;">AEROSPACE & DEFENCE</th>
+            <th style="color: #777777; width: 10%; background-color: #111111;">BANKING & FINANCIAL SERVICES</th>
+            <th style="color: #777777; width: 10%; background-color: #111111;">HEALTHCARE</th>
+          </tr>
+        </tbody>
+      </table>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-bottom: 100px; margin-top: 50px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="width: 95%;">
+            <div class="card-container" style="padding: 0; margin-left: 100px; margin-right: 25px;">
+                <div class="card">
+                    <img src="./images/LK.jpg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; color: #696969;">Lakehouse — New kid in data town</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Lid.jpg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; color: #696969;">LiDAR data for Feature Extraction</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Car.jpeg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; padding: 0 35px; color: #696969;">The d/dt of EV Charging</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/KS.png" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; padding: 0 51px; color: #696969;">Knative-ly Serverless</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="width: 95%;">
+            <div class="card-container" style="margin-left: 100px; margin-right: 25px;">
+                <div class="card">
+                    <img src="./images/RR.jpeg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; padding: 0 36px; color: #696969;">The Reactive Revolution</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/DLK.jpg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left;  padding: 0 40px; color: #696969;">Data Lakehouse-5 Whys</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/KS2.jpeg" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; color: #696969;">Knative-ly Serverless:Unlock the Power of Serverless</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/RR2.png" class="card-img" alt="...">
+                    <div class="card-body" style="font-weight: bold;">
+                        <h5 class="card-title" style="text-align: left; color: #696969;">The Reactive Revolution: Leveraging Microservices</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="width: 95%;">
+                <div class="card-container" style="margin-left: 100px; margin-right: 25px;">
+        <div class="card">
+            <img src="./images/DLK2.png" class="card-img" alt="...">
+            <div class="card-body" style="font-weight: bold;">
+                <h5 class="card-title" style="text-align: left; padding: 0 51px; color: #696969;">Data Lakehouse: 5 Whys</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/RAI.png" class="card-img" alt="...">
+            <div class="card-body" style="font-weight: bold;">
+                <h5 class="card-title" style="text-align: left; color: #696969;">Revolutionizing EMR with AI-Powered Voice Integration</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/UP.png" class="card-img" alt="...">
+            <div class="card-body" style="font-weight: bold;">
+                <h5 class="card-title" style="text-align: left; color: #696969;">Utility Pole Capture from LiDAR Point Cloud</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/IOT.jpg" class="card-img" alt="...">
+            <div class="card-body" style="font-weight: bold;">
+                <h5 class="card-title" style="text-align: left; color: #696969;">NeST Digital’s IoT Solution Enables Cost-Effective Power Generation and Distribution Monitoring</h5>
+            </div>
+        </div>
+    </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="set">
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                  <td style="color: goldenrod;background-color: #1e1e1e; width: 13%;"><b>Quick Links</b></td>
+                  <td style="background-color: #1e1e1e; width: 18%;"><b><a href="department.html" style="text-decoration: none; color: goldenrod;">Industries</a></b></td>
+                  <td style="background-color: #1e1e1e; width: 40%;"><b><a href="options.html" style="text-decoration: none; color: goldenrod;">Services</a></b></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="color: lightgray; background-color: #1e1e1e;"><b>Home</b></td>
+                  <td style="color: lightgray; background-color: #1e1e1e;"><b>Mobility</b></td>
+                  <td style="color: lightgray; background-color: #1e1e1e;"><b>Cloud Services</td>
+                    <td style="background-color: #1e1e1e; width: 50%;"><a href="contact.html" class="btn btn-outline-warning" tabindex="-1" role="button" aria-disabled="true">Contact Us</a></td>
+                </tr>
+                <tr>
+                  <td style="color: lightgray;background-color: #1e1e1e;"><b>About Us</b></td>
+                  <td style="color: lightgray; background-color: #1e1e1e;"><b>Aerospace & Defence</b></td>
+                  <td style="color: lightgray; background-color: #1e1e1e;"><b>Cyber Security</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Insights</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Locomotive</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Data Engineering</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Contact: 1212121212</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Careers</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Industries</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>DevOps</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Email: nestdigitalpark@gmail.com</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Contact Us</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Banking & Financial Services</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>GIS</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Blogs</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Insurance</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Cyber Security Consulting</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Whitepapers</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Health Care</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>DevOps Consulting</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Webinars</b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b></b></td>
+                    <td style="color: lightgray; background-color: #1e1e1e;"><b>Data Engineering Consulting</b></td>
+                </tr>
+                <tr>
+                    <td style="color: lightgray;background-color: #1e1e1e;"><b>Podcats</b></td>
+                </tr>
+              </tbody>
+          </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
